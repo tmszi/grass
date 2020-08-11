@@ -43,6 +43,7 @@ import os
 import errno
 import atexit
 import gettext
+import mimetypes
 import shutil
 import signal
 import string
@@ -678,9 +679,24 @@ def set_paths(grass_config_dir):
     path_prepend(gpath("lib"), LD_LIBRARY_PATH_VAR)
 
 
-def find_exe(pgm):
-    for directory in os.getenv('PATH').split(os.pathsep):
-        path = os.path.join(directory, pgm)
+def find_exe(pgm, extend_ext=None):
+    """
+    Find program/script exe
+
+    param str pgm: program/script name
+    param list extend_ext: extend exe extensions on Windows OS platform
+    ['.PY']
+
+    return str: program/script exe path or None
+    """
+    if sys.platform == 'win32' and extend_ext:
+        os.environ['PATHEXT'] = os.environ['PATHEXT'] + ';' + \
+            ';'.join(extend_ext)
+    # On the Windows platform get exe full path with exe postfix which is
+    # recognize by os.access
+    # Example: C:\Program Files\GRASS GIS 7.9\bin\g.region.EXE
+    path = shutil.which(pgm)
+    if path:
         if os.access(path, os.X_OK):
             return path
     return None
@@ -1623,45 +1639,34 @@ def run_batch_job(batch_job):
         batch_job = quote(batch_job)
         proc = Popen(batch_job, shell=True)
     else:
-        def script_path(batch_job):
-            """Adjust script path
-
-            :param batch_job list: index 0, script path
-
-            :return str or None: script path or None
-            """
-            script_in_addon_path = None
-            if 'GRASS_ADDON_BASE' in os.environ:
-                script_in_addon_path = os.path.join(
-                    os.environ['GRASS_ADDON_BASE'],
-                    'scripts',
-                    batch_job[0],
-                )
-            if script_in_addon_path and \
-               os.path.exists(script_in_addon_path):
-                batch_job[0] = script_in_addon_path
-                return script_in_addon_path
-            elif os.path.exists(batch_job[0]):
-                return batch_job[0]
-
+        script = batch_job[0]
         try:
-            script = script_path(batch_job)
-            proc = Popen(batch_job, shell=False, env=os.environ)
-        except OSError as error:
-            error_message = _("Execution of <{cmd}> failed:\n"
-                              "{error}").format(
-                                  cmd=batch_job_string,
-                                  error=error,
-                              )
-            # No such file or directory
-            if error.errno == errno.ENOENT:
-                if script and os.access(batch_job[0], os.X_OK):
+            batch_job[0] = find_exe(batch_job[0], extend_ext=['.PY'])
+            if batch_job[0]:
+                exec_type = mimetypes.MimeTypes().guess_type(
+                    batch_job[0])[0]
+                if exec_type == 'text/x-python':
                     # Allow run py script with CRLF line terminators
-                    proc = Popen([sys.executable] + batch_job, shell=False)
+                    proc = Popen([sys.executable] + batch_job,
+                                 shell=False)
                 else:
-                    fatal(error_message)
+                    proc = Popen(batch_job, shell=False)
             else:
-                fatal(error_message)
+                raise OSError(
+                    _(
+                        "Permission denied or file '{script}' "
+                        "not found.".format(
+                            script=script,
+                        ),
+                    )
+                )
+        except OSError as error:
+            fatal(
+                _("Execution of <{cmd}> failed:\n{error}").format(
+                    cmd=batch_job_string,
+                    error=error,
+                ),
+            )
     returncode = proc.wait()
     message(_("Execution of <%s> finished.") % batch_job_string)
     return returncode
