@@ -306,6 +306,9 @@ class BufferedMapWindow(MapWindowBase, Window):
              coords=[0, 0, 0, 0], pen=None, brush=None):
         """Draws map and overlay decorations
         """
+        if not pdc:
+            return
+
         if drawid is None:
             if pdctype == 'image' and img:
                 drawid = self.imagedict[img]
@@ -599,7 +602,8 @@ class BufferedMapWindow(MapWindowBase, Window):
                 # decorate with GDDC (transparency)
                 try:
                     gcdc = wx.GCDC(dc)
-                    self.pdcVector.DrawToDCClipped(gcdc, rgn)
+                    if self.pdcVector:
+                        self.pdcVector.DrawToDCClipped(gcdc, rgn)
                 except NotImplementedError as e:
                     print(e, file=sys.stderr)
                     self.pdcVector.DrawToDCClipped(dc, rgn)
