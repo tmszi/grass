@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 15:42+0000\n"
+"POT-Creation-Date: 2025-08-09 15:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -321,7 +321,7 @@ msgstr ""
 msgid "List of animations"
 msgstr ""
 
-#: ../gui/wxpython/animation/dialogs.py:786 ../gui/wxpython/dbmgr/base.py:2426
+#: ../gui/wxpython/animation/dialogs.py:786 ../gui/wxpython/dbmgr/base.py:2435
 #: ../gui/wxpython/psmap/dialogs.py:1825
 msgid "Add"
 msgstr ""
@@ -1064,7 +1064,7 @@ msgstr ""
 msgid "Expand all"
 msgstr ""
 
-#: ../gui/wxpython/core/settings.py:795 ../gui/wxpython/dbmgr/base.py:1446
+#: ../gui/wxpython/core/settings.py:795 ../gui/wxpython/dbmgr/base.py:1455
 msgid "Edit selected record"
 msgstr ""
 
@@ -1767,7 +1767,7 @@ msgid "&Delete"
 msgstr ""
 
 #. GTC Rename mapset
-#: ../gui/wxpython/datacatalog/tree.py:2086 ../gui/wxpython/dbmgr/base.py:2481
+#: ../gui/wxpython/datacatalog/tree.py:2086 ../gui/wxpython/dbmgr/base.py:2490
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:235
 msgid "&Rename"
 msgstr ""
@@ -1882,9 +1882,9 @@ msgstr ""
 msgid "Viewing limit: 100000 records."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:375 ../gui/wxpython/dbmgr/base.py:963
-#: ../gui/wxpython/dbmgr/base.py:1131 ../gui/wxpython/dbmgr/base.py:1485
-#: ../gui/wxpython/dbmgr/base.py:2166 ../gui/wxpython/dbmgr/manager.py:237
+#: ../gui/wxpython/dbmgr/base.py:375 ../gui/wxpython/dbmgr/base.py:972
+#: ../gui/wxpython/dbmgr/base.py:1140 ../gui/wxpython/dbmgr/base.py:1494
+#: ../gui/wxpython/dbmgr/base.py:2175 ../gui/wxpython/dbmgr/manager.py:237
 #, python-format
 msgid "Number of loaded records: %d"
 msgstr ""
@@ -1905,230 +1905,230 @@ msgid ""
 "Details: %(detail)s"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:506
+#: ../gui/wxpython/dbmgr/base.py:515
 msgid "Sort ascending"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:507
+#: ../gui/wxpython/dbmgr/base.py:516
 msgid "Sort descending"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:512
+#: ../gui/wxpython/dbmgr/base.py:521
 msgid "Calculate (only numeric columns)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:514
+#: ../gui/wxpython/dbmgr/base.py:523
 msgid "Field calculator"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:516 ../gui/wxpython/wxplot/dialogs.py:295
+#: ../gui/wxpython/dbmgr/base.py:525 ../gui/wxpython/wxplot/dialogs.py:295
 msgid "Statistics"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:521 ../gui/wxpython/dbmgr/base.py:2372
+#: ../gui/wxpython/dbmgr/base.py:530 ../gui/wxpython/dbmgr/base.py:2381
 #: ../gui/wxpython/modules/colorrules.py:1129
 msgid "Add column"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:533
+#: ../gui/wxpython/dbmgr/base.py:542
 msgid "Area size"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:534
+#: ../gui/wxpython/dbmgr/base.py:543
 msgid "Line length"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:535
+#: ../gui/wxpython/dbmgr/base.py:544
 msgid "Compactness of an area"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:538
+#: ../gui/wxpython/dbmgr/base.py:547
 msgid "Fractal dimension of boundary defining a polygon"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:540
+#: ../gui/wxpython/dbmgr/base.py:549
 msgid "Perimeter length of an area"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:541
+#: ../gui/wxpython/dbmgr/base.py:550
 msgid "Number of features for each category"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:542
+#: ../gui/wxpython/dbmgr/base.py:551
 msgid "Slope steepness of 3D line"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:543
+#: ../gui/wxpython/dbmgr/base.py:552
 msgid "Line sinuousity"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:544
+#: ../gui/wxpython/dbmgr/base.py:553
 msgid "Line azimuth"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:671
+#: ../gui/wxpython/dbmgr/base.py:680
 #, python-format
 msgid "Add column to table <%s>"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1062
+#: ../gui/wxpython/dbmgr/base.py:1071
 msgid "Unable to add column to the table. No column name defined."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1076
+#: ../gui/wxpython/dbmgr/base.py:1085
 #, python-format
 msgid "Column <%(column)s> already exists in table <%(table)s>."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1165
+#: ../gui/wxpython/dbmgr/base.py:1174
 msgid "Attribute data - right-click to edit/manage records"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1180 ../gui/wxpython/dbmgr/base.py:2325
-#: ../gui/wxpython/dbmgr/base.py:3042 ../gui/wxpython/dbmgr/base.py:3205
-#: ../gui/wxpython/dbmgr/base.py:3474
+#: ../gui/wxpython/dbmgr/base.py:1189 ../gui/wxpython/dbmgr/base.py:2334
+#: ../gui/wxpython/dbmgr/base.py:3051 ../gui/wxpython/dbmgr/base.py:3214
+#: ../gui/wxpython/dbmgr/base.py:3483
 msgid "Table"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1182 ../gui/wxpython/dbmgr/base.py:2327
+#: ../gui/wxpython/dbmgr/base.py:1191 ../gui/wxpython/dbmgr/base.py:2336
 msgid " (read-only)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1199
+#: ../gui/wxpython/dbmgr/base.py:1208
 msgid "SQL Query"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1223
+#: ../gui/wxpython/dbmgr/base.py:1232
 msgid "Simple"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1226
+#: ../gui/wxpython/dbmgr/base.py:1235
 msgid "Apply SELECT statement and reload data records"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1256 ../gui/wxpython/dbmgr/base.py:1282
+#: ../gui/wxpython/dbmgr/base.py:1265 ../gui/wxpython/dbmgr/base.py:1291
 #: ../gui/wxpython/dbmgr/sqlbuilder.py:498
 #, python-format
 msgid "Example: %s"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1267
+#: ../gui/wxpython/dbmgr/base.py:1276
 msgid "Builder"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1270
+#: ../gui/wxpython/dbmgr/base.py:1279
 msgid "SQL Builder"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1454 ../gui/wxpython/dbmgr/base.py:1636
+#: ../gui/wxpython/dbmgr/base.py:1463 ../gui/wxpython/dbmgr/base.py:1645
 msgid "Insert new record"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1455
+#: ../gui/wxpython/dbmgr/base.py:1464
 msgid "Delete selected record(s)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1456
+#: ../gui/wxpython/dbmgr/base.py:1465
 msgid "Delete all records"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1462 ../gui/wxpython/gui_core/dialogs.py:838
+#: ../gui/wxpython/dbmgr/base.py:1471 ../gui/wxpython/gui_core/dialogs.py:838
 #: ../gui/wxpython/gui_core/dialogs.py:896
 #: ../gui/wxpython/gui_core/dialogs.py:1607
 #: ../gui/wxpython/gui_core/widgets.py:1129
 msgid "Select all"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1463 ../gui/wxpython/gui_core/dialogs.py:1609
+#: ../gui/wxpython/dbmgr/base.py:1472 ../gui/wxpython/gui_core/dialogs.py:1609
 #: ../gui/wxpython/gui_core/widgets.py:1130
 msgid "Deselect all"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1465
+#: ../gui/wxpython/dbmgr/base.py:1474
 #: ../gui/wxpython/gui_core/preferences.py:1617
 msgid "Highlight selected features"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1466
+#: ../gui/wxpython/dbmgr/base.py:1475
 msgid "Highlight selected features and zoom"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1470 ../gui/wxpython/dbmgr/base.py:1997
+#: ../gui/wxpython/dbmgr/base.py:1479 ../gui/wxpython/dbmgr/base.py:2006
 msgid "Extract selected features"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1471
+#: ../gui/wxpython/dbmgr/base.py:1480
 msgid "Delete selected features"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1479 ../gui/wxpython/dbmgr/base.py:2662
+#: ../gui/wxpython/dbmgr/base.py:1488 ../gui/wxpython/dbmgr/base.py:2671
 #: ../gui/wxpython/gmodeler/dialogs.py:925
 #: ../gui/wxpython/gmodeler/dialogs.py:1079
 #: ../gui/wxpython/vdigit/dialogs.py:306
 msgid "Reload"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1532
+#: ../gui/wxpython/dbmgr/base.py:1541
 msgid "Update existing record"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1560 ../gui/wxpython/dbmgr/base.py:1675
+#: ../gui/wxpython/dbmgr/base.py:1569 ../gui/wxpython/dbmgr/base.py:1684
 #, python-format
 msgid "Value '%(value)s' needs to be entered as %(type)s."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1575
+#: ../gui/wxpython/dbmgr/base.py:1584
 #, python-format
 msgid ""
 "Unable to update existing record.\n"
 "%s"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1650
+#: ../gui/wxpython/dbmgr/base.py:1659
 #, python-format
 msgid "Record with category number %d already exists in the table."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1662
+#: ../gui/wxpython/dbmgr/base.py:1671
 #, python-format
 msgid "Category number (column %s) is missing."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1683
+#: ../gui/wxpython/dbmgr/base.py:1692
 #, python-format
 msgid "Column '%(column)s' does not exist."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1698
+#: ../gui/wxpython/dbmgr/base.py:1707
 #, python-format
 msgid ""
 "Unable to insert new record.\n"
 "%s"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1749
+#: ../gui/wxpython/dbmgr/base.py:1758
 #, python-format
 msgid "Selected data records (%d) will be permanently deleted from table. Do you want to delete them?"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1753 ../gui/wxpython/dbmgr/base.py:1803
+#: ../gui/wxpython/dbmgr/base.py:1762 ../gui/wxpython/dbmgr/base.py:1812
 msgid "Delete records"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1799
+#: ../gui/wxpython/dbmgr/base.py:1808
 #, python-format
 msgid "All data records (%d) will be permanently deleted from table. Do you want to delete them?"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:1992
+#: ../gui/wxpython/dbmgr/base.py:2001
 msgid "Nothing to extract."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2032
+#: ../gui/wxpython/dbmgr/base.py:2041
 msgid "Nothing to delete."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2111 ../gui/wxpython/dbmgr/base.py:2147
+#: ../gui/wxpython/dbmgr/base.py:2120 ../gui/wxpython/dbmgr/base.py:2156
 #, python-format
 msgid ""
 "Loading attribute data failed.\n"
@@ -2136,7 +2136,7 @@ msgid ""
 "%s"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2127
+#: ../gui/wxpython/dbmgr/base.py:2136
 #, python-format
 msgid ""
 "Loading attribute data failed.\n"
@@ -2145,69 +2145,69 @@ msgid ""
 "%s"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2344 ../gui/wxpython/dbmgr/sqlbuilder.py:105
+#: ../gui/wxpython/dbmgr/base.py:2353 ../gui/wxpython/dbmgr/sqlbuilder.py:105
 msgid "Database connection"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2361
+#: ../gui/wxpython/dbmgr/base.py:2370
 #, python-format
 msgid "Table <%s> - right-click to delete column(s)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2386 ../gui/wxpython/dbmgr/base.py:2448
-#: ../gui/wxpython/dbmgr/dialogs.py:797
+#: ../gui/wxpython/dbmgr/base.py:2395 ../gui/wxpython/dbmgr/base.py:2457
+#: ../gui/wxpython/dbmgr/dialogs.py:802
 msgid "Column"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2404 ../gui/wxpython/dbmgr/dialogs.py:809
+#: ../gui/wxpython/dbmgr/base.py:2413 ../gui/wxpython/dbmgr/dialogs.py:814
 #: ../gui/wxpython/gmodeler/preferences.py:289
 msgid "Type"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2418 ../gui/wxpython/dbmgr/dialogs.py:820
+#: ../gui/wxpython/dbmgr/base.py:2427 ../gui/wxpython/dbmgr/dialogs.py:825
 msgid "Length"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2434
+#: ../gui/wxpython/dbmgr/base.py:2443
 msgid "Rename column"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2470 ../gui/wxpython/gmodeler/dialogs.py:388
+#: ../gui/wxpython/dbmgr/base.py:2479 ../gui/wxpython/gmodeler/dialogs.py:388
 msgid "To"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2588
+#: ../gui/wxpython/dbmgr/base.py:2597
 msgid "Unable to rename column. No column name defined."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2597
+#: ../gui/wxpython/dbmgr/base.py:2606
 #, python-format
 msgid "Unable to rename column <%(column)s> to <%(columnTo)s>. Column already exists in the table <%(table)s>."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2620
+#: ../gui/wxpython/dbmgr/base.py:2629
 #, python-format
 msgid "Unable to rename column. Column <%(column)s> doesn't exist in the table <%(table)s>."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2652
+#: ../gui/wxpython/dbmgr/base.py:2661
 msgid "Drop selected column"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2660
+#: ../gui/wxpython/dbmgr/base.py:2669
 msgid "Drop all columns"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2690
+#: ../gui/wxpython/dbmgr/base.py:2699
 #, python-format
 msgid "Selected %s will PERMANENTLY removed from table. Do you want to drop the column?"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2694 ../gui/wxpython/dbmgr/base.py:2743
+#: ../gui/wxpython/dbmgr/base.py:2703 ../gui/wxpython/dbmgr/base.py:2752
 msgid "Drop column(s)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2739
+#: ../gui/wxpython/dbmgr/base.py:2748
 #, python-format
 msgid ""
 "Selected columns\n"
@@ -2215,158 +2215,158 @@ msgid ""
 "will PERMANENTLY removed from table. Do you want to drop the columns?"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2861
+#: ../gui/wxpython/dbmgr/base.py:2870
 msgid "List of layers"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2940 ../gui/wxpython/dbmgr/base.py:3394
-#: ../gui/wxpython/dbmgr/base.py:3861
+#: ../gui/wxpython/dbmgr/base.py:2949 ../gui/wxpython/dbmgr/base.py:3403
+#: ../gui/wxpython/dbmgr/base.py:3870
 #, python-format
 msgid "Drop also linked attribute table (%s)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2984
+#: ../gui/wxpython/dbmgr/base.py:2993
 msgid "Column name"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2984
+#: ../gui/wxpython/dbmgr/base.py:2993
 msgid "Data length"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:2984 ../gui/wxpython/gmodeler/panels.py:1351
+#: ../gui/wxpython/dbmgr/base.py:2993 ../gui/wxpython/gmodeler/panels.py:1351
 #: ../gui/wxpython/gmodeler/panels.py:1407
 msgid "Data type"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3042 ../gui/wxpython/dbmgr/base.py:3194
-#: ../gui/wxpython/dbmgr/base.py:3462 ../gui/wxpython/gui_core/gselect.py:1479
+#: ../gui/wxpython/dbmgr/base.py:3051 ../gui/wxpython/dbmgr/base.py:3203
+#: ../gui/wxpython/dbmgr/base.py:3471 ../gui/wxpython/gui_core/gselect.py:1479
 msgid "Database"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3042 ../gui/wxpython/dbmgr/base.py:3183
-#: ../gui/wxpython/dbmgr/base.py:3451
+#: ../gui/wxpython/dbmgr/base.py:3051 ../gui/wxpython/dbmgr/base.py:3192
+#: ../gui/wxpython/dbmgr/base.py:3460
 msgid "Driver"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3042
+#: ../gui/wxpython/dbmgr/base.py:3051
 msgid "Key"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3042 ../gui/wxpython/dbmgr/base.py:3170
-#: ../gui/wxpython/dbmgr/base.py:3439 ../gui/wxpython/dbmgr/dialogs.py:509
+#: ../gui/wxpython/dbmgr/base.py:3051 ../gui/wxpython/dbmgr/base.py:3179
+#: ../gui/wxpython/dbmgr/base.py:3448 ../gui/wxpython/dbmgr/dialogs.py:509
 #: ../gui/wxpython/vdigit/dialogs.py:127 ../gui/wxpython/vdigit/dialogs.py:573
 #: ../gui/wxpython/vdigit/preferences.py:529
 msgid "Layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3150
+#: ../gui/wxpython/dbmgr/base.py:3159
 msgid "Add layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3160
+#: ../gui/wxpython/dbmgr/base.py:3169
 msgid "Layer description"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3216 ../gui/wxpython/dbmgr/base.py:3279
-#: ../gui/wxpython/dbmgr/base.py:3485
+#: ../gui/wxpython/dbmgr/base.py:3225 ../gui/wxpython/dbmgr/base.py:3288
+#: ../gui/wxpython/dbmgr/base.py:3494
 msgid "Key column"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3229
+#: ../gui/wxpython/dbmgr/base.py:3238
 msgid "Insert record for each category into table"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3252
+#: ../gui/wxpython/dbmgr/base.py:3261
 msgid "You need to add categories by v.category module."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3257
+#: ../gui/wxpython/dbmgr/base.py:3266
 msgid "Table description"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3268
+#: ../gui/wxpython/dbmgr/base.py:3277
 msgid "Table name"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3293
+#: ../gui/wxpython/dbmgr/base.py:3302
 msgid "&Create table"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3296
+#: ../gui/wxpython/dbmgr/base.py:3305
 #: ../gui/wxpython/web_services/dialogs.py:533
 msgid "&Add layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3299
+#: ../gui/wxpython/dbmgr/base.py:3308
 msgid "&Set default"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3368
+#: ../gui/wxpython/dbmgr/base.py:3377
 msgid "Remove layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3371
+#: ../gui/wxpython/dbmgr/base.py:3380
 msgid "Layer to remove"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3402
+#: ../gui/wxpython/dbmgr/base.py:3411
 msgid "&Remove layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3431
+#: ../gui/wxpython/dbmgr/base.py:3440
 msgid "Modify layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3534
+#: ../gui/wxpython/dbmgr/base.py:3543
 msgid "&Modify layer"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3577
+#: ../gui/wxpython/dbmgr/base.py:3586
 msgid ""
 "Unable to get list of tables.\n"
 "Please use db.connect to set database parameters."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3683
+#: ../gui/wxpython/dbmgr/base.py:3692
 msgid "Unable to create new table. Table name or key column name is missing."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3693
+#: ../gui/wxpython/dbmgr/base.py:3702
 #, python-format
 msgid "Unable to create new table. Table <%s> already exists in the database."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3738
+#: ../gui/wxpython/dbmgr/base.py:3747
 #, python-format
 msgid "Unable to add new layer to vector map <%(vector)s>. Layer %(layer)d already exists."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3926
+#: ../gui/wxpython/dbmgr/base.py:3935
 msgid "Field statistics"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:3947
+#: ../gui/wxpython/dbmgr/base.py:3958
 msgid "Copy statistics the clipboard (Ctrl+C)"
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:4008
+#: ../gui/wxpython/dbmgr/base.py:4019
 msgid "Statistics is not support for DBF tables."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:4036
+#: ../gui/wxpython/dbmgr/base.py:4096
 msgid "Unable to calculate statistics."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:4045
+#: ../gui/wxpython/dbmgr/base.py:4105
 #, python-format
 msgid "Unable to calculate statistics. Invalid number of lines %d (should be %d)."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:4072
+#: ../gui/wxpython/dbmgr/base.py:4132
 msgid "Unable to calculate standard deviation."
 msgstr ""
 
-#: ../gui/wxpython/dbmgr/base.py:4080
+#: ../gui/wxpython/dbmgr/base.py:4140
 #, python-format
 msgid "Field statistics <%s>"
 msgstr ""
@@ -2427,6 +2427,10 @@ msgstr ""
 #: ../gui/wxpython/dbmgr/dialogs.py:509 ../gui/wxpython/dbmgr/dialogs.py:646
 #: ../gui/wxpython/vdigit/dialogs.py:134 ../gui/wxpython/vdigit/dialogs.py:574
 msgid "Category"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/dialogs.py:670
+msgid "YYYY-MM-DD"
 msgstr ""
 
 #: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:48
