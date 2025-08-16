@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-09 15:41+0000\n"
+"POT-Creation-Date: 2025-08-16 15:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4814,6 +4814,11 @@ msgstr ""
 msgid "Topology level required for drawing centroids for OGR layers"
 msgstr ""
 
+#: ../display/d.vect/legend.c:18 ../display/d.vect/main.c:367
+#, c-format
+msgid "Map name <%s> is too long"
+msgstr ""
+
 #: ../display/d.vect/lines.c:114
 msgid "Unable to display features by id, topology not available. Please try to rebuild topology using v.build or v.build.all."
 msgstr ""
@@ -5009,32 +5014,32 @@ msgstr ""
 msgid "Region size is greater than maxreg, nothing displayed"
 msgstr ""
 
-#: ../display/d.vect/main.c:373
+#: ../display/d.vect/main.c:376
 #, c-format
 msgid "The -%c flag and <%s> option cannot be used together, the -%c flag will be ignored!"
 msgstr ""
 
-#: ../display/d.vect/main.c:398 ../display/d.vect/main.c:404
+#: ../display/d.vect/main.c:401 ../display/d.vect/main.c:407
 #, c-format
 msgid "Option <%s> must be > 0"
 msgstr ""
 
-#: ../display/d.vect/main.c:409
+#: ../display/d.vect/main.c:412
 #, c-format
 msgid "%d error in cat option"
 msgid_plural "%d errors in cat option"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../display/d.vect/main.c:426
+#: ../display/d.vect/main.c:429
 msgid "Plotting..."
 msgstr ""
 
-#: ../display/d.vect/main.c:438
+#: ../display/d.vect/main.c:441
 msgid "The bounding box of the map is outside the current region, nothing drawn"
 msgstr ""
 
-#: ../display/d.vect/main.c:510
+#: ../display/d.vect/main.c:513
 msgid "Rendering failed"
 msgstr ""
 
