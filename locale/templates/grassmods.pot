@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-29 18:49+0000\n"
+"POT-Creation-Date: 2026-09-05 17:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22995,22 +22995,22 @@ msgstr ""
 msgid "Given water level at seed point is below earth surface. Increase water level or move seed point."
 msgstr ""
 
-#: ../raster/r.lake/main.c:360
+#: ../raster/r.lake/main.c:361
 #, c-format
 msgid "Lake depth from %f to %f (specified water level is taken as zero)"
 msgstr ""
 
-#: ../raster/r.lake/main.c:362
+#: ../raster/r.lake/main.c:363
 #, c-format
 msgid "Lake area %f square meters"
 msgstr ""
 
-#: ../raster/r.lake/main.c:363
+#: ../raster/r.lake/main.c:364
 #, c-format
 msgid "Lake volume %f cubic meters"
 msgstr ""
 
-#: ../raster/r.lake/main.c:364
+#: ../raster/r.lake/main.c:365
 msgid "Volume is correct only if lake depth (terrain raster map) is in meters"
 msgstr ""
 
@@ -24374,7 +24374,7 @@ msgid "Unable to export raster map <%s>"
 msgstr ""
 
 #: ../raster/r.out.gdal/main.c:754
-msgid "Number of overviews must be between 0 and 5"
+msgid "Number of overviews must be between 0 and 30"
 msgstr ""
 
 #: ../raster/r.out.gdal/main.c:761

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-29 18:49+0000\n"
+"POT-Creation-Date: 2026-09-05 17:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3938,23 +3938,23 @@ msgstr ""
 msgid "Variables below not defined:"
 msgstr ""
 
-#: ../gui/wxpython/gmodeler/model.py:801
+#: ../gui/wxpython/gmodeler/model.py:804
 msgid "Raster maps"
 msgstr ""
 
-#: ../gui/wxpython/gmodeler/model.py:804
+#: ../gui/wxpython/gmodeler/model.py:807
 msgid "3D raster maps"
 msgstr ""
 
-#: ../gui/wxpython/gmodeler/model.py:807 ../gui/wxpython/psmap/dialogs.py:1792
+#: ../gui/wxpython/gmodeler/model.py:810 ../gui/wxpython/psmap/dialogs.py:1792
 msgid "Vector maps"
 msgstr ""
 
-#: ../gui/wxpython/gmodeler/model.py:902
+#: ../gui/wxpython/gmodeler/model.py:905
 msgid "empty"
 msgstr ""
 
-#: ../gui/wxpython/gmodeler/model.py:903
+#: ../gui/wxpython/gmodeler/model.py:906
 #, python-brace-format
 msgid "Details: unsupported tag name '{0}'."
 msgstr ""
@@ -7154,7 +7154,7 @@ msgid "Invalid line in GISRC file (%s):%s\n"
 msgstr ""
 
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:579
-#: ../gui/wxpython/startup/locdownload.py:423
+#: ../gui/wxpython/startup/locdownload.py:433
 #, python-brace-format
 msgid "Error: {text}"
 msgstr ""
@@ -13557,80 +13557,80 @@ msgstr ""
 msgid "Current mapset is <%s>."
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:152
+#: ../gui/wxpython/startup/locdownload.py:162
 msgid "Download in progress, wait until it is finished 0%"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:163
+#: ../gui/wxpython/startup/locdownload.py:173
 #, python-brace-format
 msgid "Download in progress, wait until it is finished {0}%, {1} MB, {2} KB/s, {3:.0f} seconds passed"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:185
+#: ../gui/wxpython/startup/locdownload.py:195
 msgid "Downloaded project is not valid"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:229
+#: ../gui/wxpython/startup/locdownload.py:239
 msgid "Abort"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:230
-#: ../gui/wxpython/startup/locdownload.py:492
+#: ../gui/wxpython/startup/locdownload.py:240
+#: ../gui/wxpython/startup/locdownload.py:502
 msgid "Abort download"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:233
+#: ../gui/wxpython/startup/locdownload.py:243
 msgid "Select sample project to download:"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:297
 #: ../gui/wxpython/startup/locdownload.py:307
-#: ../gui/wxpython/startup/locdownload.py:447
+#: ../gui/wxpython/startup/locdownload.py:317
+#: ../gui/wxpython/startup/locdownload.py:457
 msgid "Do&wnload"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:297
+#: ../gui/wxpython/startup/locdownload.py:307
 msgid "Download selected project"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:307
-#: ../gui/wxpython/startup/locdownload.py:390
+#: ../gui/wxpython/startup/locdownload.py:317
+#: ../gui/wxpython/startup/locdownload.py:400
 msgid "Download"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:314
-#: ../gui/wxpython/startup/locdownload.py:363
+#: ../gui/wxpython/startup/locdownload.py:324
+#: ../gui/wxpython/startup/locdownload.py:373
 msgid "Download in progress, wait until it is finished"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:330
+#: ../gui/wxpython/startup/locdownload.py:340
 #, python-brace-format
 msgid "Project name {name} already exists in {path}, download canceled"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:340
+#: ../gui/wxpython/startup/locdownload.py:350
 #, python-format
 msgid "Download failed: %s"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:345
+#: ../gui/wxpython/startup/locdownload.py:355
 msgid "Download completed. The downloaded sample data is available now in the data tree"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:386
+#: ../gui/wxpython/startup/locdownload.py:396
 #, python-brace-format
 msgid "Project named {name} already exists, rename it first"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:440
+#: ../gui/wxpython/startup/locdownload.py:450
 msgid "Dataset Download"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:448
+#: ../gui/wxpython/startup/locdownload.py:458
 msgid "Download selected dataset"
 msgstr ""
 
-#: ../gui/wxpython/startup/locdownload.py:491
+#: ../gui/wxpython/startup/locdownload.py:501
 msgid "Do you want to cancel dataset download?"
 msgstr ""
 
