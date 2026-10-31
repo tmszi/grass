@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-17 18:18+0000\n"
+"POT-Creation-Date: 2026-10-31 19:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2261,7 +2261,7 @@ msgstr ""
 #: ../vector/v.extract/main.c:190 ../vector/v.extrude/main.c:185
 #: ../vector/v.fill.holes/main.c:72 ../vector/v.generalize/main.c:321
 #: ../vector/v.hull/main.c:82 ../vector/v.info/main.c:62
-#: ../vector/v.kernel/main.c:323 ../vector/v.kernel/main.c:336
+#: ../vector/v.kernel/main.c:324 ../vector/v.kernel/main.c:337
 #: ../vector/v.label.sa/labels.c:58 ../vector/v.label/main.c:264
 #: ../vector/v.lidar.correction/main.c:158
 #: ../vector/v.lidar.edgedetection/main.c:183
@@ -2331,7 +2331,7 @@ msgstr ""
 #: ../vector/v.in.db/main.c:154 ../vector/v.in.dxf/main.c:140
 #: ../vector/v.in.lidar/main.c:562 ../vector/v.in.ogr/main.c:867
 #: ../vector/v.in.pdal/main.cpp:471 ../vector/v.in.region/main.c:71
-#: ../vector/v.kernel/main.c:342 ../vector/v.lidar.correction/main.c:214
+#: ../vector/v.kernel/main.c:343 ../vector/v.lidar.correction/main.c:214
 #: ../vector/v.lidar.correction/main.c:220
 #: ../vector/v.lidar.edgedetection/main.c:253
 #: ../vector/v.lrs/v.lrs.create/main.c:268
@@ -2832,8 +2832,8 @@ msgstr ""
 msgid "Category file for <%s> not available"
 msgstr ""
 
-#: ../display/d.histogram/main.c:170 ../display/d.legend/draw.c:299
-#: ../display/d.legend/draw.c:304
+#: ../display/d.histogram/main.c:170 ../display/d.legend/draw.c:305
+#: ../display/d.legend/draw.c:310
 #, c-format
 msgid "Range information for <%s> not available"
 msgstr ""
@@ -3051,77 +3051,77 @@ msgstr ""
 msgid "Path to output file or '-' for standard output"
 msgstr ""
 
-#: ../display/d.legend/draw.c:111
+#: ../display/d.legend/draw.c:113
 msgid "Legend box lies outside of frame. Text may not display properly."
 msgstr ""
 
-#: ../display/d.legend/draw.c:117
+#: ../display/d.legend/draw.c:119
 msgid "Drawing horizontal legend as box width exceeds height"
 msgstr ""
 
-#: ../display/d.legend/draw.c:130
+#: ../display/d.legend/draw.c:132
 #, c-format
 msgid "Range information for <%s> not available (run r.support)"
 msgstr ""
 
-#: ../display/d.legend/draw.c:135
+#: ../display/d.legend/draw.c:137
 msgid "Input map contains no data"
 msgstr ""
 
-#: ../display/d.legend/draw.c:149
+#: ../display/d.legend/draw.c:151
 msgid "Requested range exceeds lower limit of actual data"
 msgstr ""
 
-#: ../display/d.legend/draw.c:156
+#: ../display/d.legend/draw.c:158
 msgid "Requested range exceeds upper limit of actual data"
 msgstr ""
 
-#: ../display/d.legend/draw.c:220
+#: ../display/d.legend/draw.c:226
 #, c-format
 msgid "use=%s out of range [%d,%d] (extend with range= ?)"
 msgstr ""
 
-#: ../display/d.legend/draw.c:247
+#: ../display/d.legend/draw.c:253
 msgid "Nothing to draw! (no categories with labels? out of range?)"
 msgstr ""
 
-#: ../display/d.legend/draw.c:258
+#: ../display/d.legend/draw.c:264
 msgid "Forcing a smooth legend: too many categories for current window height"
 msgstr ""
 
-#: ../display/d.legend/draw.c:288
+#: ../display/d.legend/draw.c:294
 #, c-format
 msgid "Failed to create format string with maxCat=%f."
 msgstr ""
 
-#: ../display/d.legend/draw.c:318
+#: ../display/d.legend/draw.c:324
 msgid "Color range exceeds lower limit of actual data"
 msgstr ""
 
-#: ../display/d.legend/draw.c:322
+#: ../display/d.legend/draw.c:328
 msgid "Color range exceeds upper limit of actual data"
 msgstr ""
 
-#: ../display/d.legend/draw.c:331
-#, c-format
-msgid "Range [%.3f, %.3f] out of the logarithm domain."
-msgstr ""
-
-#: ../display/d.legend/draw.c:337
+#: ../display/d.legend/draw.c:335
 #, c-format
 msgid "use=%s out of range [%.3f, %.3f] (extend with range= ?)"
 msgstr ""
 
-#: ../display/d.legend/draw.c:644
+#: ../display/d.legend/draw.c:384
+#, c-format
+msgid "Range [%.3f, %.3f] has no extent for a logarithmic scale"
+msgstr ""
+
+#: ../display/d.legend/draw.c:664
 #, c-format
 msgid "tick_value=%.3f out of range [%.3f, %.3f]"
 msgstr ""
 
-#: ../display/d.legend/draw.c:1064
+#: ../display/d.legend/draw.c:1105
 msgid "Histogram plotting not implemented for categorical legends. Use the '-s' flag"
 msgstr ""
 
-#: ../display/d.legend/draw.c:1332
+#: ../display/d.legend/draw.c:1373
 msgid "Nothing to draw! (no categories with labels?)"
 msgstr ""
 
@@ -3689,33 +3689,39 @@ msgstr ""
 msgid "Output file: %s"
 msgstr ""
 
-#: ../display/d.mon/start.c:154
+#: ../display/d.mon/start.c:120 ../general/g.gui/main.c:106
+#: ../general/g.mapsets/main.c:220
+#, c-format
+msgid "Incomplete GRASS session: Variable '%s' not set"
+msgstr ""
+
+#: ../display/d.mon/start.c:158
 #, c-format
 msgid "Monitor <%s> already running"
 msgstr ""
 
-#: ../display/d.mon/start.c:157
+#: ../display/d.mon/start.c:161
 #, c-format
 msgid "Starting monitor <%s>..."
 msgstr ""
 
-#: ../display/d.mon/start.c:176
+#: ../display/d.mon/start.c:180
 msgid "Unable to copy render command file"
 msgstr ""
 
-#: ../display/d.mon/start.c:188 ../display/d.mon/start.c:244
+#: ../display/d.mon/start.c:192 ../display/d.mon/start.c:248
 #: ../raster/r.out.bin/main.c:159 ../raster/r.out.bin/main.c:247
 #: ../raster/r.out.bin/main.c:433 ../raster3d/r3.out.bin/main.c:331
 #, c-format
 msgid "Unable to create file <%s>"
 msgstr ""
 
-#: ../display/d.mon/start.c:195 ../display/d.mon/start.c:198
-#: ../display/d.mon/start.c:201 ../display/d.mon/start.c:206
-#: ../display/d.mon/start.c:209 ../display/d.mon/start.c:213
-#: ../display/d.mon/start.c:216 ../display/d.mon/start.c:219
-#: ../display/d.mon/start.c:222 ../display/d.mon/start.c:231
-#: ../display/d.mon/start.c:236
+#: ../display/d.mon/start.c:199 ../display/d.mon/start.c:202
+#: ../display/d.mon/start.c:205 ../display/d.mon/start.c:210
+#: ../display/d.mon/start.c:213 ../display/d.mon/start.c:217
+#: ../display/d.mon/start.c:220 ../display/d.mon/start.c:223
+#: ../display/d.mon/start.c:226 ../display/d.mon/start.c:235
+#: ../display/d.mon/start.c:240
 #, c-format
 msgid "Failed to write to file <%s>"
 msgstr ""
@@ -4116,7 +4122,7 @@ msgstr ""
 #. GTC Count of window rows
 #: ../display/d.rast.num/main.c:208 ../raster/r.thin/io.c:110
 #: ../raster/r.thin/io.c:186 ../raster/r.thin/io.c:195
-#: ../vector/v.kernel/main.c:301 ../vector/v.surf.idw/main.c:245
+#: ../vector/v.kernel/main.c:302 ../vector/v.surf.idw/main.c:245
 #, c-format
 msgid "%d row"
 msgid_plural "%d rows"
@@ -5902,16 +5908,16 @@ msgstr ""
 msgid "Nothing to do. For setting up <%s> as default UI use -%c flag."
 msgstr ""
 
-#: ../general/g.gui/main.c:107
+#: ../general/g.gui/main.c:111
 msgid "Your installation doesn't include GUI, exiting."
 msgstr ""
 
-#: ../general/g.gui/main.c:110
+#: ../general/g.gui/main.c:114
 #, c-format
 msgid "Launching <%s> GUI, please wait..."
 msgstr ""
 
-#: ../general/g.gui/main.c:121
+#: ../general/g.gui/main.c:125
 #, c-format
 msgid "Launching <%s> GUI in the background, please wait..."
 msgstr ""
@@ -6211,36 +6217,36 @@ msgstr ""
 msgid "Unknown operation '%s'"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:233 ../general/g.mapsets/main.c:268
+#: ../general/g.mapsets/main.c:239 ../general/g.mapsets/main.c:274
 #, c-format
 msgid "Mapset <%s> not found"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:240 ../general/g.mapsets/main.c:299
+#: ../general/g.mapsets/main.c:246 ../general/g.mapsets/main.c:305
 #, c-format
 msgid "Current mapset (<%s>) must always included in the search path"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:263
+#: ../general/g.mapsets/main.c:269
 #, c-format
 msgid "Mapset <%s> already in the path"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:270
+#: ../general/g.mapsets/main.c:276
 #, c-format
 msgid "Mapset <%s> added to search path"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:303
+#: ../general/g.mapsets/main.c:309
 #, c-format
 msgid "Mapset <%s> removed from search path"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:315
+#: ../general/g.mapsets/main.c:321
 msgid "Search path not modified"
 msgstr ""
 
-#: ../general/g.mapsets/main.c:333
+#: ../general/g.mapsets/main.c:339
 msgid "Unable to open SEARCH_PATH for write"
 msgstr ""
 
@@ -6334,16 +6340,16 @@ msgstr ""
 msgid "Comma-separated list of extra directories to scan for Freetype-compatible fonts as well as the defaults (see documentation)"
 msgstr ""
 
-#: ../general/g.mkfontcap/main.c:96
+#: ../general/g.mkfontcap/main.c:95
 #, c-format
 msgid "Fontcap file %s already exists; use --overwrite flag if you wish to overwrite it"
 msgstr ""
 
-#: ../general/g.mkfontcap/main.c:109
+#: ../general/g.mkfontcap/main.c:108
 msgid "This GRASS installation was compiled without Freetype support, extradirs parameter ignored"
 msgstr ""
 
-#: ../general/g.mkfontcap/main.c:136
+#: ../general/g.mkfontcap/main.c:135
 #, c-format
 msgid "Cannot open %s for writing: %s"
 msgstr ""
@@ -30052,7 +30058,7 @@ msgstr ""
 #. GTC Count of raster columns
 #. GTC Count of window columns
 #: ../raster/r.thin/io.c:112 ../raster/r.thin/io.c:188
-#: ../raster/r.thin/io.c:198 ../vector/v.kernel/main.c:302
+#: ../raster/r.thin/io.c:198 ../vector/v.kernel/main.c:303
 #: ../vector/v.surf.idw/main.c:247
 #, c-format
 msgid "%d column"
@@ -40868,8 +40874,8 @@ msgstr ""
 
 #: ../vector/v.kernel/main.c:123 ../vector/v.kernel/main.c:137
 #: ../vector/v.kernel/main.c:159 ../vector/v.kernel/main.c:167
-#: ../vector/v.kernel/main.c:188 ../vector/v.kernel/main.c:215
-#: ../vector/v.kernel/main.c:221
+#: ../vector/v.kernel/main.c:188 ../vector/v.kernel/main.c:216
+#: ../vector/v.kernel/main.c:222
 msgid "Network"
 msgstr ""
 
@@ -40925,104 +40931,104 @@ msgstr ""
 msgid "Only calculate optimal radius and exit (no map is written)"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:212
+#: ../vector/v.kernel/main.c:213
 msgid "In network mode, normalize values by sum of density multiplied by length of each segment. Integral over the output map then gives 1.0 * multiplier"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:220
+#: ../vector/v.kernel/main.c:221
 msgid "In network mode, multiply the result by number of input points"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:233
+#: ../vector/v.kernel/main.c:234
 msgid "Use option net_output if you compute network density. Name provided in option output will be used for net_output."
 msgstr ""
 
-#: ../vector/v.kernel/main.c:252
+#: ../vector/v.kernel/main.c:253
 msgid "Unknown node method"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:270
+#: ../vector/v.kernel/main.c:271
 msgid "Unknown kernel function"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:277
+#: ../vector/v.kernel/main.c:282
 msgid "Optimal standard deviation calculation is supported only for node method 'none' and kernel function 'gaussian'."
 msgstr ""
 
-#: ../vector/v.kernel/main.c:282
+#: ../vector/v.kernel/main.c:287
 msgid "Optimal standard deviation calculation is supported only for kernel function 'gaussian'."
 msgstr ""
 
-#: ../vector/v.kernel/main.c:300
+#: ../vector/v.kernel/main.c:301
 #, c-format
 msgid "Standard deviation: %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:308
+#: ../vector/v.kernel/main.c:309
 #, c-format
 msgid "Output raster map: resolution: %f\t%s\t%s"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:313
+#: ../vector/v.kernel/main.c:314
 #, c-format
 msgid "Output raster map resolution: %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:361
+#: ../vector/v.kernel/main.c:362
 #, c-format
 msgid "%d point outside threshold"
 msgid_plural "%d points outside threshold"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../vector/v.kernel/main.c:385
+#: ../vector/v.kernel/main.c:386
 #, c-format
 msgid "Automatic choice of smoothing parameter (radius), maximum possible value of radius is set to %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:395
+#: ../vector/v.kernel/main.c:396
 #, c-format
 msgid "Using maximum distance between points: %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:408
+#: ../vector/v.kernel/main.c:409
 #, c-format
 msgid "Number of input points: %d."
 msgstr ""
 
-#: ../vector/v.kernel/main.c:409
+#: ../vector/v.kernel/main.c:410
 #, c-format
 msgid "%d distance read from the map."
 msgid_plural "%d distances read from the map."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../vector/v.kernel/main.c:415
+#: ../vector/v.kernel/main.c:416
 #, c-format
 msgid "Distances between all points are beyond %e (4 * standard deviation), unable to calculate optimal value."
 msgstr ""
 
-#: ../vector/v.kernel/main.c:426
+#: ../vector/v.kernel/main.c:427
 #, c-format
 msgid "Optimal smoothing parameter (standard deviation): %f."
 msgstr ""
 
-#: ../vector/v.kernel/main.c:458
+#: ../vector/v.kernel/main.c:459
 #, c-format
 msgid "Writing output vector map using smooth parameter %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:459 ../vector/v.kernel/main.c:571
+#: ../vector/v.kernel/main.c:460 ../vector/v.kernel/main.c:572
 #, c-format
 msgid "Normalising factor %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:570
+#: ../vector/v.kernel/main.c:571
 #, c-format
 msgid "Writing output raster map using smooth parameter %f"
 msgstr ""
 
-#: ../vector/v.kernel/main.c:627
+#: ../vector/v.kernel/main.c:628
 #, c-format
 msgid "Maximum value in output: %e."
 msgstr ""
